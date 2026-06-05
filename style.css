@@ -5,29 +5,33 @@ body {
     text-align: center;
 }
 
-/* SOLID BORDERS FOR ALL SECTIONS */
 header,
 main,
 footer {
     border: 2px solid darkgoldenrod;
 }
 
-/* CONTAINER REQUIREMENTS */
 .container {
     max-width: 800px;
     width: 80%;
     height: 60%;
-    margin: auto;          /* centers content */
+    margin: auto;
     padding: 20px;
 }
 
-/* CLASS SELECTOR */
 .container a {
     display: block;
     margin-top: 10px;
 }
 
-/* ID SELECTOR */
 #contact {
     color: gold;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: lightblue;
 }
