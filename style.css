@@ -1,23 +1,28 @@
-
 body {
-  background-color: black;
-  color: darkred;
-  font-family: Arial;
-  font-size: 14px;
-  text-align: center;
+    background-color: black;
+    color: darkred;
+    font-family: Arial;
+    text-align: center;
+
+    background-image: url("generic-casino-2.webp");
+    background-position: center top;
 }
-main {
+
+.container {
+    max-width: 800px;
     width: 80%;
     height: 60%;
-    margin: 20px auto;
-    padding: 15px;
+
+    margin: auto;          /* centers content */
+    padding: 20px;
+
     border: 3px solid darkgoldenrod;
     border-top: 5px solid red;
 }
+
 .game-link {
     display: block;
     margin-top: 10px;
-    font-size: 20px;
 }
 
 #contact {
